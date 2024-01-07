@@ -9,26 +9,99 @@ body {
             flex-shrink: 0;
             border-radius: 16px;
             margin: 40px auto;
-            
-            
-}
-.banner-text{
-   padding-top: 85px;
+
+
 }
 
-.text{
+.banner-text {
+            padding-top: 85px;
+}
+
+.text {
             color: #FFF;
             text-align: center;
 
             font-size: 32px;
 
-            font-weight: 400px;          
+            font-weight: 400px;
 }
 
 .text1 {
-              color: #FFF;
+            color: #FFF;
             text-align: center;
             font-size: 72px;
-            font-weight: 800px;  
-            border-top: 16px;       
+            font-weight: 800px;
+            border-top: 16px;
+}
+
+.discount {
+
+            background: #FFF;
+}
+
+.first-text {
+            color: #F00;
+            text-align: center;
+            font-size: 88px;
+            font-weight: 700;
+}
+
+.second-text {
+            color: #F00;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 500;
+}
+
+.third-text {
+            color: #070211;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 700;
+
+
+}
+
+.image {
+            text-align: center;
+
+}
+
+.main-section-banner {
+            background-image: url('../resources/Vectorrr.png');
+            width: 1320px;
+            height: 600px;
+            flex-shrink: 0;
+            margin: 80px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+           
+}
+
+.Welcome-text{
+            color: #FFF;
+            font-size: 72px;
+            font-weight: 800px;
+
+
+
+}
+.main-section-banner-text{
+            fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.btn-primary {
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+}
+.paraghraph-text{
+            color: #FFF;
+            
 }
