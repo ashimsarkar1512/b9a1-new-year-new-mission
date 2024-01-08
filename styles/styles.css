@@ -6,7 +6,7 @@ body {
             background-image: url("../resources/Banner\ Image.png");
             width: 1320px;
             height: 600px;
-            flex-shrink: 0;
+            
             border-radius: 16px;
             margin: 40px auto;
 
@@ -20,9 +20,7 @@ body {
 .text {
             color: #FFF;
             text-align: center;
-
-            font-size: 32px;
-
+               font-size: 32px;
             font-weight: 400px;
 }
 
@@ -192,11 +190,11 @@ body {
 }
 
 .offer-contant {
-            padding-left: 100px;
+           
 }
 
 .offer-year {
-            padding-right: 100px;
+           
 }
 
 .year {
@@ -207,7 +205,41 @@ body {
 .year-text {
             color: rgba(7, 2, 17, 0.60);
             font-weight: 400;
+}
 
+.gift-section{
+            align-items: center;
+            margin: 100px auto;
+            background: #FFF;
+            width: 1320px;
+            height: 450 px;
+}
+
+.gift-title{
+     color: #F00;
+      font-weight: 500;
+
+}
+.gift-head{
+            color: #070211;
+            font-size: 32px;
+          font-weight: 800;
+
+}
+.gift-paragaraph{
+            color: rgba(7, 2, 17, 0.60); 
+            font-size: 20px;
+            font-weight: 400;
 
 }
 
+.three-product{
+            display: flex;
+            margin: 50px auto 20px;
+            gap: 24px;
+}
+.others-product{
+            display: flex;
+            margin-bottom: 25px;
+            gap: 24px;
+}
