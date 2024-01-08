@@ -17,13 +17,14 @@ body {
 }
 
 .banner-text {
-   padding-top: 85px;
+   padding-top: 115px;
 
 }
 
 .text {
    color: #FFF;
    text-align: center;
+   font-family: Merriweather;
    font-size: 32px;
    font-weight: 400px;
 }
@@ -31,6 +32,7 @@ body {
 .text1 {
    color: #FFF;
    text-align: center;
+   font-family: Merriweather;
    font-size: 72px;
    font-weight: 800px;
    border-top: 16px;
@@ -44,6 +46,7 @@ body {
 .first-text {
    color: #F00;
    text-align: center;
+   font-family: Inter;
    font-size: 88px;
    font-weight: 700;
 }
@@ -51,6 +54,7 @@ body {
 .second-text {
    color: #F00;
    text-align: center;
+   font-family: Inter;
    font-size: 24px;
    font-weight: 500;
 }
@@ -58,6 +62,7 @@ body {
 .third-text {
    color: #070211;
    text-align: center;
+   font-family: Inter;
    font-size: 48px;
    font-weight: 700;
 
@@ -84,6 +89,7 @@ body {
 .Welcome-text {
    color: #FFF;
    font-size: 72px;
+   font-family: Merriweather;
    font-weight: 800px;
 
 
@@ -93,23 +99,25 @@ body {
 .btn-primary {
    color: #FFF;
    text-align: center;
-   font-weight: 500;
+   font-family: Inter;
+   font-weight: 700;
    line-height: normal;
    background-color: #1a1524;
+   border: none;
 
 }
 
 .paraghraph-text {
    color: #FFF;
+   font-family: Inter;
 
 }
 
 .announcement {
 
    text-align: center;
-
+   font-family: Inter;
    font-size: 32px;
-
    font-weight: 600;
    line-height: 56px;
 
@@ -173,17 +181,29 @@ body {
 
 .offer-head {
    color: #F00;
+   font-family: Inter;
    font-weight: 500;
 }
 
 .offer {
    color: #070211;
+   font-family: Merriweather;
+   font-size: 32px;
    font-weight: 800;
 }
 
 .offer-text {
    color: rgba(7, 2, 17, 0.60);
+   font-family: Inter;
    font-weight: 400;
+}
+
+.offer-contant {
+   padding-left: 100px;
+}
+
+.offer-year {
+   padding-right: 100px;
 }
 
 .year {
@@ -193,47 +213,53 @@ body {
 
 .year-text {
    color: rgba(7, 2, 17, 0.60);
+   font-family: Inter;
+   font-size: 20px;
    font-weight: 400;
 }
-.high-discount{
-height: 900px;
-   
+
+.high-discount {
+   height: 900px;
+
 }
-.conditional{
+
+.conditional {
    color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-weight: 400;
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 400;
 
 }
-.day-parcentage{
-font-family: Merriweather;
-font-size: 50px;
-font-weight: 700px;
-margin-bottom: 25px;
+
+.day-parcentage {
+   font-family: Merriweather;
+   font-size: 50px;
+   font-weight: 700px;
+   margin-bottom: 25px;
 }
 
-.parcentage-text{
+.parcentage-text {
    width: 900px;
    color: rgba(7, 2, 17, 0.60);
    font-family: Inter;
    font-size: 20px;
    font-weight: 400;
    padding-left: 180px;
-   }
-
-
-.day{
-   color: #F00;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 800;
 }
-.discount-text{
+
+
+.day {
+   color: #F00;
+   font-family: Merriweather;
+   font-size: 72px;
+   font-weight: 800;
+}
+
+.discount-text {
    text-align: center;
 }
 
-.discount-image{
+.discount-image {
 
    background-image: url('../resources/Rectangle\ 2.png');
 
@@ -241,7 +267,7 @@ font-weight: 800;
    background-position: bottom;
 }
 
-.hurrah{
+.hurrah {
    /* background-image: url('../resources/Rectangle\ 1.png');
    background-repeat: no-repeat;
   position: top; */
@@ -261,12 +287,14 @@ font-weight: 800;
 
 .gift-title {
    color: #F00;
+   font-family: Inter;
    font-weight: 500;
 
 }
 
 .gift-head {
    color: #070211;
+   font-family: Merriweather;
    font-size: 32px;
    font-weight: 800;
 
@@ -274,6 +302,7 @@ font-weight: 800;
 
 .gift-paragaraph {
    color: rgba(7, 2, 17, 0.60);
+   font-family: Inter;
    font-size: 20px;
    font-weight: 400;
 
@@ -303,17 +332,21 @@ font-weight: 800;
 
 .form-head {
    color: #070211;
+   font-family: Merriweather;
    font-size: 38px;
    font-weight: 800;
+
 }
 
 .form-text {
    color: rgba(7, 2, 17, 0.60);
+   font-family: Inter;
    font-size: 20px;
    font-weight: 400;
 
 }
-.form-box{
+
+.form-box {
    width: 500px;
    display: flex;
    padding-left: 410px;
@@ -327,30 +360,31 @@ font-weight: 800;
    padding: 20px;
    border-radius: 50px 0px 0px 50px;
    background: #FFF;
- 
+
 
 
 }
 
 .form-button {
    margin-left: 0px;
+   font-family: Inter;
    padding: 19px;
    border-radius: 0px 50px 50px 0px;
    background: #F00;
-   
+
 }
 
 .footer-section {
    background: #070211;
-   margin:60px auto 0  ;
-
+   margin: 60px auto 0;
    height: 500px;
    padding: 100px 160px 0 120px;
-   
+
 }
 
 .first-left {
    color: #FFF;
+   font-family: Inter;
    font-weight: 500;
 
 }
@@ -358,6 +392,7 @@ font-weight: 800;
 .second-right {
 
    color: #FFF;
+   font-family: Inter;
    font-size: 20px;
    font-weight: 500;
 
@@ -366,6 +401,7 @@ font-weight: 800;
 .call {
    display: flex;
    align-items: center;
+   font-family: Inter;
 }
 
 .website {
@@ -383,22 +419,27 @@ font-weight: 800;
    height: 24px;
 
 }
-.website-image{
+
+.website-image {}
+
+.line {
+
+   border: 2px solid rgba(255, 255, 255, 0.15);
+   ;
 
 }
-hr{
-   background: rgba(255, 255, 255, 0.15);
-}
-.social-icons{
+
+.social-icons {
    padding: 40px;
-   
-  text-align: center;
+ text-align: center;
 }
-.footer-last-step{
+
+.footer-last-step {
    color: #FFF;
-font-size: 24px;
-font-weight: 500;
-padding-top: 50px;
-display: flex;
-justify-content: space-between;
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 500;
+   padding-top: 50px;
+   display: flex;
+   justify-content: space-between;
 }
