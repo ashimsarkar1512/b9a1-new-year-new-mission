@@ -1,245 +1,278 @@
 body {
-            font-family: 'Open Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   max-width: 1320px;
+   margin: 0 auto;
 }
 
 .first-banner {
-            background-image: url("../resources/Banner\ Image.png");
-            width: 1320px;
-            height: 600px;
-            
-            border-radius: 16px;
-            margin: 40px auto;
+   background-image: 
+   linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
+   /* width: 1320px; */
+   height: 600px;
+
+   border-radius: 16px;
+   margin: 40px auto;
 
 
 }
 
 .banner-text {
-            padding-top: 85px;
+   padding-top: 85px;
+
 }
 
 .text {
-            color: #FFF;
-            text-align: center;
-               font-size: 32px;
-            font-weight: 400px;
+   color: #FFF;
+   text-align: center;
+   font-size: 32px;
+   font-weight: 400px;
 }
 
 .text1 {
-            color: #FFF;
-            text-align: center;
-            font-size: 72px;
-            font-weight: 800px;
-            border-top: 16px;
+   color: #FFF;
+   text-align: center;
+   font-size: 72px;
+   font-weight: 800px;
+   border-top: 16px;
 }
 
 .discount {
 
-            background: #FFF;
+   background: #FFF;
 }
 
 .first-text {
-            color: #F00;
-            text-align: center;
-            font-size: 88px;
-            font-weight: 700;
+   color: #F00;
+   text-align: center;
+   font-size: 88px;
+   font-weight: 700;
 }
 
 .second-text {
-            color: #F00;
-            text-align: center;
-            font-size: 24px;
-            font-weight: 500;
+   color: #F00;
+   text-align: center;
+   font-size: 24px;
+   font-weight: 500;
 }
 
 .third-text {
-            color: #070211;
-            text-align: center;
-            font-size: 48px;
-            font-weight: 700;
+   color: #070211;
+   text-align: center;
+   font-size: 48px;
+   font-weight: 700;
 
 
 }
 
 .image {
-            text-align: center;
+   text-align: center;
 
 }
 
 .main-section-banner {
-            background-image: url('../resources/Vectorrr.png');
-            width: 1320px;
-            height: 600px;
-            flex-shrink: 0;
-            margin: 80px auto;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
+   background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+   /* width: 1320px; */
+   height: 600px;
+   flex-shrink: 0;
+   margin: 80px auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
 
 }
 
 .Welcome-text {
-            color: #FFF;
-            font-size: 72px;
-            font-weight: 800px;
+   color: #FFF;
+   font-size: 72px;
+   font-weight: 800px;
 
 
 
 }
 
-.main-section-banner-text {
-            fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-}
 
 .btn-primary {
-            color: #FFF;
-            text-align: center;
-             font-weight: 500;
-            line-height: normal;
-            background-color: #1a1524;
+   color: #FFF;
+   text-align: center;
+   font-weight: 500;
+   line-height: normal;
+   background-color: #1a1524;
 
 }
 
 .paraghraph-text {
-            color: #FFF;
+   color: #FFF;
 
 }
 
 .announcement {
 
-            text-align: center;
+   text-align: center;
 
-            font-size: 32px;
+   font-size: 32px;
 
-            font-weight: 600;
-            line-height: 56px;
+   font-weight: 600;
+   line-height: 56px;
 
 
 }
 
 .date {
-            color: #F00;
+   color: #F00;
 }
 
 .join-button {
-            display: inline-flex;
-            padding: 16px 32px;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            border-radius: 8px;
-            background: #F00;
-            color: #FFF;
-            text-align: center;
-            font-size: 20px;
-            font-weight: 700;
+   display: inline-flex;
+   padding: 16px 32px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   border-radius: 8px;
+   background: #F00;
+   color: #FFF;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 700;
 
 }
 
 .button-path {
-            color: #FFF;
-            text-align: center;
-            font-family: Inter;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            text-transform: uppercase;
+   color: #FFF;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 700;
+
 }
 
 .time-spent {
-            width: 1320px;
-            height: 482px;
-            flex-shrink: 0;
-            text-align: center;
-            margin: 0 auto;
-            background-color: #FFF8F3;
-            padding-top: 80px;
+   background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); 
+   /* width: 1320px; */
+   height: 482px;
+   flex-shrink: 0;
+   text-align: center;
+   /* margin: 0 auto; */
+   padding-top: 80px;
 }
 
 .offer-section {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 100px auto;
-            background: #FFF;
-            width: 1320px;
-            height: 450 px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 100px auto;
+   background: #FFF;
+   /* width: 1320px; */
+   height: 450 px;
 }
 
 .offer-image {
-            border-radius: 463px;
-            border: 15px solid #F00;
-            padding: 20px;
-            
+   border-radius: 463px;
+   border: 15px solid #F00;
+   padding: 20px;
+
 
 }
 
 .offer-head {
-            color: #F00;
-            font-weight: 500;
+   color: #F00;
+   font-weight: 500;
 }
 
 .offer {
-            color: #070211;
-            font-weight: 800;
+   color: #070211;
+   font-weight: 800;
 }
 
 .offer-text {
-            color: rgba(7, 2, 17, 0.60);
-            font-weight: 400;
+   color: rgba(7, 2, 17, 0.60);
+   font-weight: 400;
 }
 
-.offer-contant {
-           
-}
-
-.offer-year {
-           
-}
 
 .year {
-            color: #F00;
-            font-weight: 700;
+   color: #F00;
+   font-weight: 700;
 }
 
 .year-text {
-            color: rgba(7, 2, 17, 0.60);
-            font-weight: 400;
+   color: rgba(7, 2, 17, 0.60);
+   font-weight: 400;
 }
 
-.gift-section{
-            align-items: center;
-            margin: 100px auto;
-            background: #FFF;
-            width: 1320px;
-            height: 450 px;
+.gift-section {
+   align-items: center;
+   margin: 80px auto;
+   background: #FFF;
+   /* width: 1320px; */
+   height: 450 px;
 }
 
-.gift-title{
-     color: #F00;
-      font-weight: 500;
-
-}
-.gift-head{
-            color: #070211;
-            font-size: 32px;
-          font-weight: 800;
-
-}
-.gift-paragaraph{
-            color: rgba(7, 2, 17, 0.60); 
-            font-size: 20px;
-            font-weight: 400;
+.gift-title {
+   color: #F00;
+   font-weight: 500;
 
 }
 
-.three-product{
-            display: flex;
-            margin: 50px auto 20px;
-            gap: 24px;
+.gift-head {
+   color: #070211;
+   font-size: 32px;
+   font-weight: 800;
+
 }
-.others-product{
-            display: flex;
-            margin-bottom: 25px;
-            gap: 24px;
+
+.gift-paragaraph {
+   color: rgba(7, 2, 17, 0.60);
+   font-size: 20px;
+   font-weight: 400;
+
+}
+
+.three-product {
+   display: flex;
+   margin: 50px auto 20px;
+   gap: 24px;
+}
+
+.others-product {
+   display: flex;
+   margin-bottom: 25px;
+   gap: 24px;
+}
+
+.form-section {
+   /* width: 1320px; */
+   height: 500px;
+   /* margin: 0 auto; */
+   text-align: center;
+   padding-top: 80px;
+   border-radius: 16px;
+   background: rgba(255, 0, 0, 0.05);
+}
+
+.form-head {
+   color: #070211;
+   font-size: 38px;
+   font-weight: 800;
+}
+
+.form-text {
+   color: rgba(7, 2, 17, 0.60);
+   font-size: 20px;
+   font-weight: 400;
+
+}
+
+.email-field {
+  margin: 0 auto;
+   width: 500px;
+   padding: 19px;
+   border-radius: 50px 0px 0px 50px;
+   background: #FFF;
+   border-collapse: collapse;
+
+}
+
+.form-button {
+   margin-left: 0px;
+   padding: 19px;
+   border-radius: 0px 50px 50px 0px;
 }
