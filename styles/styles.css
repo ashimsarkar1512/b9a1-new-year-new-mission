@@ -195,6 +195,61 @@ body {
    color: rgba(7, 2, 17, 0.60);
    font-weight: 400;
 }
+.high-discount{
+height: 900px;
+   
+}
+.conditional{
+   color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+
+}
+.day-parcentage{
+font-family: Merriweather;
+font-size: 50px;
+font-weight: 700px;
+margin-bottom: 25px;
+}
+
+.parcentage-text{
+   width: 900px;
+   color: rgba(7, 2, 17, 0.60);
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 400;
+   padding-left: 180px;
+   }
+
+
+.day{
+   color: #F00;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 800;
+}
+.discount-text{
+   text-align: center;
+}
+
+.discount-image{
+
+   background-image: url('../resources/Rectangle\ 2.png');
+
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
+
+.hurrah{
+   /* background-image: url('../resources/Rectangle\ 1.png');
+   background-repeat: no-repeat;
+  position: top; */
+}
+
+
+
+
 
 .gift-section {
    align-items: center;
@@ -265,6 +320,8 @@ body {
 }
 
 .email-field {
+   border: none;
+   outline: none;
    margin: 0 auto;
    width: 500px;
    padding: 20px;
@@ -285,7 +342,8 @@ body {
 
 .footer-section {
    background: #070211;
-   margin: 60px auto;
+   margin:60px auto 0  ;
+
    height: 500px;
    padding: 100px 160px 0 120px;
    
