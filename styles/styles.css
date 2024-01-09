@@ -91,9 +91,6 @@ body {
    font-size: 72px;
    font-family: Merriweather;
    font-weight: 800px;
-
-
-
 }
 
 .btn-primary {
@@ -110,7 +107,6 @@ body {
 .paraghraph-text {
    color: #FFF;
    font-family: Inter;
-
 }
 
 .announcement {
@@ -120,8 +116,6 @@ body {
    font-size: 32px;
    font-weight: 600;
    line-height: 56px;
-
-
 }
 
 .date {
@@ -254,26 +248,36 @@ body {
    font-size: 72px;
    font-weight: 800;
 }
-
+.high-discount{
+   width: 1320px;
+   margin: 0,auto;
+}
 .discount-text {
    text-align: center;
 }
 
-.discount-image {
-
+.add-image{
+   display: flex;
    background-image: url('../resources/Rectangle\ 2.png');
-
    background-repeat: no-repeat;
    background-position: bottom;
+   position: relative;
+   
+margin-bottom: 40px;
+   align-items: center;
+   justify-content: space-around;
+   gap:;
+
 }
-
-.hurrah {
-   /* background-image: url('../resources/Rectangle\ 1.png');
-   background-repeat: no-repeat;
-  position: top; */
+.midlle-img{
+   position: absolute;
+   right:290px; 
+   top: 100px;
 }
-
-
+.last-img{
+  margin-bottom: 225px;
+  padding-left: 95px;
+}
 
 
 
@@ -412,6 +416,10 @@ body {
 .footer-text {
    display: flex;
    justify-content: space-between;
+   color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
 }
 
 .call-image {
@@ -420,7 +428,6 @@ body {
 
 }
 
-.website-image {}
 
 .line {
 
